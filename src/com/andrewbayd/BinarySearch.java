@@ -1,3 +1,5 @@
+package com.andrewbayd;
+
 public class BinarySearch {
 
     /*
