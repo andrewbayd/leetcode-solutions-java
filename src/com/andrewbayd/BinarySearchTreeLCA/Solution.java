@@ -18,7 +18,7 @@ public class Solution {
                 return root;
             }
         }
-        return root;
+        return null;
     }
 
     public TreeNode lowestCommonAncestorRecursive(TreeNode root, TreeNode p, TreeNode q) {

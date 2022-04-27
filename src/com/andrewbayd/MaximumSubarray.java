@@ -1,7 +1,13 @@
 package com.andrewbayd;
 
-public class MaximumSubarray {
+/*
+Given an integer array nums, find the contiguous subarray (containing at least one number)
+which has the largest sum and return its sum.
 
+https://leetcode.com/problems/maximum-subarray/
+ */
+
+public class MaximumSubarray {
 
     public static int maxSubArray(int[] nums) {
         if (nums.length == 1) {
