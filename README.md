@@ -2,7 +2,8 @@
 
 This repository contains my solutions for Leetcode problems that I resolve occasionally using Java.
 
-In general, each class represents one problem, but for problems where additional classes needed all classes are inside one package.
+Each class represents one problem. For each problem there is a short description and a link to a full description with examples on leetcode. 
+If problem requires a custom data structure it is located in the `datastructures` package.
 
 You can find complete list of problems here: https://leetcode.com/problemset/all/
  
