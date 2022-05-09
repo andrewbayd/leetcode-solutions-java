@@ -1,4 +1,4 @@
-package com.andrewbayd.BinarySearchTreeLCA;
+package com.andrewbayd.binarySearchTreeLCA;
 
 public class TreeNode {
     int val;

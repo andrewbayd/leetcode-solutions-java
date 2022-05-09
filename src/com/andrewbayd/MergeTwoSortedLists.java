@@ -1,4 +1,6 @@
-package com.andrewbayd.mergeTwoSortedLists;
+package com.andrewbayd;
+
+import com.andrewbayd.datastructures.ListNode;
 
 public class MergeTwoSortedLists {
     public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
