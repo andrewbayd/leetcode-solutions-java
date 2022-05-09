@@ -1,4 +1,6 @@
-package com.andrewbayd.symmetricTree;
+package com.andrewbayd;
+
+import com.andrewbayd.datastructures.TreeNode;
 
 /*
 Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).
@@ -6,7 +8,7 @@ Given the root of a binary tree, check whether it is a mirror of itself (i.e., s
 https://leetcode.com/problems/symmetric-tree/
  */
 
-public class Solution {
+public class SymmetricTree {
     public boolean isSymmetric(TreeNode root) {
         return isSymetricRecursive(root.left, root.right);
     }

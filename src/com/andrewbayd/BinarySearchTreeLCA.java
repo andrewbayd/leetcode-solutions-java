@@ -1,4 +1,6 @@
-package com.andrewbayd.binarySearchTreeLCA;
+package com.andrewbayd;
+
+import com.andrewbayd.datastructures.TreeNode;
 
 /*
 Given a binary search tree (BST), find the lowest common ancestor (LCA) of two given nodes in the BST.
@@ -6,7 +8,7 @@ Given a binary search tree (BST), find the lowest common ancestor (LCA) of two g
 https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
  */
 
-public class Solution {
+public class BinarySearchTreeLCA {
 
     public TreeNode lowestCommonAncestorIterative(TreeNode root, TreeNode p, TreeNode q) {
         while (root != null) {

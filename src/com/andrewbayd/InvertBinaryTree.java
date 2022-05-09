@@ -1,4 +1,6 @@
-package com.andrewbayd.invertBinaryTree;
+package com.andrewbayd;
+
+import com.andrewbayd.datastructures.TreeNode;
 
 /*
 Given the root of a binary tree, invert the tree, and return its root.
@@ -6,7 +8,7 @@ Given the root of a binary tree, invert the tree, and return its root.
 https://leetcode.com/problems/invert-binary-tree/
  */
 
-public class Solution {
+public class InvertBinaryTree {
 
     public TreeNode invertTree(TreeNode root) {
         invertRecursive(root);

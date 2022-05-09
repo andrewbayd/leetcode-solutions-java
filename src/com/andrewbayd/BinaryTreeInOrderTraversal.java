@@ -9,7 +9,7 @@ Given the root of a binary tree, return the inorder traversal of its nodes' valu
 https://leetcode.com/problems/binary-tree-inorder-traversal/
  */
 
-public class Solution {
+public class BinaryTreeInOrderTraversal {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         traversalRecursive(root, result);

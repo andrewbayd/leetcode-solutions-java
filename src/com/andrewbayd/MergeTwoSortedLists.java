@@ -2,6 +2,13 @@ package com.andrewbayd;
 
 import com.andrewbayd.datastructures.ListNode;
 
+/*
+Merge the two sorted lists in a one sorted list. The list should be made by splicing together the nodes of the first two lists.
+Return the head of the merged linked list.
+
+https://leetcode.com/problems/merge-two-sorted-lists/
+ */
+
 public class MergeTwoSortedLists {
     public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         if (list1 == null) return list2;
