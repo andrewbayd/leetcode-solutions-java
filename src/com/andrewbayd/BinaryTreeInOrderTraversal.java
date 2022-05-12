@@ -1,4 +1,6 @@
-package com.andrewbayd.binaryTreeInOrderTraversal;
+package com.andrewbayd;
+
+import com.andrewbayd.datastructures.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
